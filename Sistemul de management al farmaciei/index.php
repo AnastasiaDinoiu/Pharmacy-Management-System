@@ -23,7 +23,7 @@ if ($conn->connect_error) {
 }
 
 ?>
-<!-- ----------------------------------Cerintele a, b, e----------------------------------- -->
+
 <!-- Selectarea si afisarea continutului unui tabel -->
 <form class="form-horizontal" action="order.php">
 <fieldset>
@@ -63,34 +63,6 @@ if ($conn->connect_error) {
 
 </fieldset>
 </form>
-
-<!-- -------------------------------Cerintele c, d, f--------------------------------------- -->
-<form class="form-horizontal" action="cerinte.php">
-<fieldset>
-
-<!-- Select Basic -->
-<div class="form-group">
-  <label class="col-md-4 control-label" for="cerinta">Selecteaza cerinta</label>
-  <div class="col-md-4">
-    <select id="cerinta" name="cerinta" class="form-control">
-      <option value="c">c) Cerere care extrage informatii din cel putin 3 tabele si le filtreaza cu ajutorul a cel putin 2 conditii</option>
-      <option value="d">d) Rezultatului unei cereri care foloseste functii grup si o clauza having</option>
-      <option value="f">f) Utilizarea vizualizarilor</option>
-    </select>
-  </div>
-</div>
-
-<!-- Button -->
-<div class="form-group">
-  <label class="col-md-4 control-label" for="submit2"></label>
-  <div class="col-md-4">
-    <button id="submit2" name="submit2" class="btn btn-primary">Submit</button>
-  </div>
-</div>
-
-</fieldset>
-</form>
-
 
 <?php
 
